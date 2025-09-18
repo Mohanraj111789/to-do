@@ -18,7 +18,7 @@ public class DatabaseConnection {
                e.printStackTrace();
           }
      }
-     public Connection getDBConnection() throws SQLException
+     public static Connection getDBConnection() throws SQLException
      {
           return DriverManager.getConnection(URL, USER, PASSWORD);
      }
